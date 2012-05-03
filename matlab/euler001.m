@@ -14,4 +14,4 @@ mul5 = 0:5:N;
 % Sum all unique
 sum3_5 = sum(unique([mul3 mul5]));
 toc
-result = sum3_5;
+result = sum3_5
