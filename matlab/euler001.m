@@ -7,8 +7,11 @@
 %
 N=999;
 tic
+% Sum multiples of 3
 sum3=sum(0:3:N);
+% sum multiples of 5
 sum5=sum(0:5:N);
+% sum all
 sum3_5=sum3+sum5;
 toc
 result=sum3_5;
