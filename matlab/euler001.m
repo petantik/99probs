@@ -5,13 +5,13 @@
 %
 % Find the sum of all the multiples of 3 or 5 below 1000.
 %
-N=999;
+N = 999;
 tic
-% Sum multiples of 3
-sum3=sum(0:3:N);
-% sum multiples of 5
-sum5=sum(0:5:N);
-% sum all
-sum3_5=sum3+sum5;
+% Multiples of 3
+mul3 = 0:3:N;
+% Multiples of 5
+mul5 = 0:5:N;
+% Sum all unique
+sum3_5 = sum(unique([mul3 mul5]));
 toc
-result=sum3_5;
+result = sum3_5;
